@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+html, body, ul, li {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.frame {
+	text-align: center;
+	font-family: Microsoft YaHei, \5b8b\4f53, Tahoma, Sans-serif;
+}
+
+.logo {
+	width: 250px;
+	height: 40px;
+	position: absolute;
+	left: 100px;
+	top: 20px;
+	background: url(/HRExpressJava/images/logo.png) no-repeat;
+}
+
+.bgframe {
+	margin-top: 80px;
+	min-height: 360px;
+	padding: 0px 0px 0px 0px;
+	height: 360px;
+	width: 100%;
+	position: relative;
+}
+
+.login {
+	width: 284px;
+	height: 314px;
+	padding-top: 20px;
+}
+
+.login-cont {
+	width: 284px;
+	height: 314px;
+	background: url(/HRExpressJava/images/loginDivBG.png) no-repeat center;
+	margin-left: 121px;
+}
+
+.login-cont h1 {
+	color: #292929;
+	line-height: 50px;
+}
+
+.Username {
+	border: #B2ACAC solid 1px;
+	background: #FFF url(/HRExpressJava/images/icon_username.png) no-repeat 5px 5px;
+	line-height: 34px;
+	width: 238px;
+	height: 34px;
+	text-indent: 36px;
+	color: #878787;
+	margin-left: 23px;
+	margin-bottom: 15px;
+}
+
+.Username input {
+	width: 150px;
+	border: none;
+	color: #565656;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 2px;
+}
+
+.Password {
+	border: #B2ACAC solid 1px;
+	background: #FFF url(/HRExpressJava/images/icon_password.png) no-repeat 5px 5px;
+	line-height: 34px;
+	width: 238px;
+	height: 34px;
+	text-indent: 36px;
+	color: #878787;
+	margin-left: 23px;
+	margin-bottom: 15px;
+}
+
+.Password input {
+	width: 150px;
+	border: none;
+	color: #565656;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 2px;
+}
+
+.verify {
+	border: #B2ACAC solid 1px;
+	background: #FFF;
+	line-height: 34px;
+	width: 120px;
+	height: 34px;
+	text-indent: 10px;
+	color: #878787;
+	margin-left: 23px;
+	margin-bottom: 15px;
+}
+
+.verify input {
+	width: 90px;
+	border: none;
+	color: #565656;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 2px;
+}
+
+.verify-img {
+	display: inline-table;
+	width: 116px;
+	height: 34px;
+	background: #E4E4E4 url(/HRExpressJava/images/icon_refresh.png) no-repeat right;
+	float: right;
+	margin: -49px 23px 0 0;
+}
+
+.verify-img label {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	width: 80px;
+}
+
+.Refresh {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	float: right;
+}
+
+.register {
+	display: inline-block;
+	width: 238px;
+	height: 46px;
+	line-height: 46px;
+	background: #ED6D00;
+	border: none;
+	color: #FFFFFF;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.f-Password {
+	line-height: 40px;
+}
+
+A.f-Password:link {
+	color: #67625F;
+	text-decoration: none
+}
+
+A.f-Password:visited {
+	color: #67625F;
+	text-decoration: none
+}
+
+A.f-Password:hover {
+	color: #000;
+	text-decoration: none
+}
+
+A.f-Password:active {
+	color: #000;
+	text-decoration: none
+}
+
+.footer {
+	top: 78px; position : relative;
+	text-align: center;
+	background: url(/HRExpressJava/images/footer.jpg) center no-repeat;
+	height: 61px;
+	width: 100%;
+	position: relative;
+}

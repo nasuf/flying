@@ -1,0 +1,370 @@
+@CHARSET "UTF-8";
+
+* {
+	font-size: 12px;
+	font-family: Microsoft YaHei, \5b8b\4f53, Tahoma, Sans-serif;
+	color: #364260;
+}
+--mcy update
+.WrapTotal {
+	width: 100%;
+}
+
+.WrapTop {
+	background-color: #fff;
+	height: 56px;
+}
+
+.TopPart {
+	height: 56px;
+	width: 980px;
+	margin: 0px auto;
+	position: relative;
+	color: #333;
+	z-index: 109;
+}
+
+.Logo {
+	background: url(/HRExpressJava/images/logo.png) no-repeat;
+	width: 153px;
+	height: 40px;
+	position: absolute;
+	left: 0px;
+	top: 7px;
+}
+
+.Hotline {
+	display: inline-block;
+	background: url(/HRExpressJava/images/hotline.png) center left no-repeat;
+	padding-left: 28px;
+	height: 24px;
+	width: 120px;
+	line-height: 27px;
+	font-weight: bold;
+	margin-right: 0px;
+	vertical-align: middle;
+}
+
+.TopMenu {
+	position: absolute;
+	right: 10px;
+	top: 13px;
+	display: block;
+	height: 24px;
+	line-height: 27px;
+}
+
+.TopMenu b {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0px 1px 0px 0px;
+	vertical-align: middle;
+}
+
+.TopMenu .icon_setting {
+	background-image: url(/HRExpressJava/images/setting.png);
+}
+
+.TopMenu .icon_logout {
+	background-image: url(/HRExpressJava/images/logout.png);
+}
+
+.TopMenu A {
+	color: #333;
+	font-size: 12px;
+	margin-right: 3px;
+}
+
+.TopMenu A:hover {
+	text-decoration: underline;
+}
+
+.TopMenu .DDList {
+	margin-left: 8px;
+}
+
+.WrapMenu {
+	width: 1200px;
+	height: 30px;
+	height: 27px;
+	background: #e57100;
+}
+
+.WrapContent {
+	width: 100%;
+}
+
+.MainContent {
+	width: 1080px;
+	margin: 0px auto;
+	min-height: 300px;
+	padding: 20px 0px 0px 0px;
+	position: relative;
+}
+
+#i_content {
+	width: 970px;
+	margin-top: 28px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	clear: both;
+}
+
+#i_center {
+	width: 900px;
+	float: left;
+	margin-left: 150px;
+	min-height: 200px;
+	margin-top:-30px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+#i_footer {
+	clear: both;
+	margin: 0px auto 0 auto;
+	background-image: url(/HRExpressJava/images/footer.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	padding-top: 10px;
+	background-color: #E2E2E2;
+	width: 1140px;
+}
+
+h1 {
+	font-size: 22px;
+	color: #111;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+
+.DDList {
+	position: relative;
+}
+
+.DDList .value {
+	display: inline-block;
+}
+
+.DDList .list {
+	position: absolute;
+	top: 19px;
+	left: 0px;
+	display: none;
+	min-width: 85px;
+	padding: 0px;
+	background: #fff;
+	border: 1px solid #f79313;
+}
+
+.DDList .list .item {
+	display: block !important;
+	color: #333;
+	margin: 0px !important;
+	white-space: nowrap !important;
+	position: relative;
+}
+
+.DDList .list .item A {
+	display: block !important;
+	padding: 3px 13px 3px 13px !important;
+	color: #333;
+	line-height: 18px !important;
+	height: 18px !important;
+	white-space: nowrap !important;
+}
+
+.DDList .list .item:hover {
+	background: #50c0f4 !important;
+}
+
+.DDList .list .item:hover A {
+	color: #fff;
+}
+
+.DDList .list .item:hover .item A {
+	color: #333;
+}
+
+.DDList .list A:hover {
+	text-decoration: none !important;
+	color: #fff !important;
+}
+
+.DDList:hover .list {
+	display: block;
+}
+
+.Menu {
+	position: relative;
+	width: 800px;
+	margin: 0px auto;
+	color: #fff;
+	height: 27px;
+	z-index: 99;
+	margin-left:280px;
+}
+
+.Menu A {
+	color: #fff;
+	font-size: 14px;
+	white-space: nowrap;
+}
+
+.Menu A:hover {
+	text-decoration: none;
+	color: #f79313;
+}
+
+.Menu ul ul A {
+	color: #333;
+	font-size: 15px;
+}
+
+.Menu ul ul A:hover {
+	
+}
+
+.Menu ul li {
+	float: left;
+	display: inline-block;
+	margin: 0px 30px;
+	position: relative;
+}
+
+.Menu li span {
+	display: inline-block;
+	padding: 5px 10px;
+	height: 17px;
+	line-height: 17px;
+}
+
+.Menu ul ul li {
+	float: none;
+	display: block;
+	margin: 0px 0px;
+	padding: 3px 0px;
+	min-width: 100px;
+}
+
+.Menu ul ul {
+	display: none;
+	position: absolute;
+	top: 26px;
+	left: -1px;
+	background: #fff6ee;
+	padding: 10px 0px;
+	border: 1px solid #f79313;
+	border-top: none;
+	min-width: 120px;
+	z-index: 99;
+}
+
+.Menu ul ul ul {
+	display: none;
+	background: none;
+	width: auto;
+	border: none;
+	padding: 10px;
+	position: absolute;
+	top: 0px;
+	min-width: 80px;
+	margin-left: 120px;
+	background: #fff;
+	border: 1px solid #f79313;
+	z-index: 99;
+}
+
+.Menu ul li:hover {
+	background-color: #fff6ee;
+	border-top: 1px solid #e57100;
+}
+
+.Menu ul ul li:hover {
+	background-color: #fff;
+	border-top: none;
+}
+
+.Menu ul li:hover span {
+	
+}
+
+.Menu ul li:hover span A {
+	color: #e57100;
+}
+
+.Menu ul li:hover ul span A {
+	color: #111;
+}
+
+.Menu ul li:hover ul span {
+	background: none;
+}
+
+.Menu ul li:hover ul {
+	display: block;
+}
+
+.alarm-menu {
+	display: inline-block;
+	height: 27px;
+	float: left;
+	width: 30px;
+	margin-left: -15px;
+	position: relative;
+}
+
+.alarm-menu .alarm-icon {
+	background: url(/HRExpressJava/images/alarm.png) center no-repeat;
+	width: 18px;
+	height: 27px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+
+.alarm-menu .alarm-detail {
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: -24px;
+	width: 160px;
+}
+
+.alarm-menu .alarm-detail .alarm-detail-text {
+	background: #e60505;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	height: 22px;
+	line-height: 22px;
+	border-radius: 5px;
+}
+
+.alarm-menu .alarm-detail .alarm-detail-text A {
+	text-decoration: none;
+}
+
+.alarm-menu .alarm-detail .alarm-detail-text A:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.clear {
+	clear: both;
+}
+
+.chui, a.chui:link, a.chui:visited {
+	color: #364260;
+	text-decoration: none;
+}
+
+a.chui:hover {
+	color: #586B9E;
+	text-decoration: underline;
+}

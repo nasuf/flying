@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+
+.Pager {
+	font-size: 14px;
+	color: #509cc0;
+	padding: 5px 10px;
+	text-align: right;
+	line-height: 24px;
+}
+
+.Pager a {
+	display: inline-block;
+	min-width: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	height: 24px;
+	vertical-align: middle;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 1px solid #50c0f4;
+	text-align: center;
+}
+
+.Pager A:hover {
+	background-color: #ea6c00;
+	text-decoration: none;
+	border: 1px solid #ea6c00;
+	color: #fff;
+}
+
+.Pager .goFirst {
+	background-image: url(/HRExpressJava/images/pager_first.png);
+	background-color: #50c0f4;
+}
+
+.Pager .goPrev {
+	background-image: url(/HRExpressJava/images/pager_prev.png);
+	background-color: #50c0f4;
+}
+
+.Pager .goNext {
+	background-image: url(/HRExpressJava/images/pager_next.png);
+	background-color: #50c0f4;
+}
+
+.Pager .goLast {
+	background-image: url(/HRExpressJava/images/pager_last.png);
+	background-color: #50c0f4;
+}
+
+/*页面分页菜单*/
+.i_ht_banner0{height: 24px; width: 100px; float: left; display: block; line-height: 24px;	text-align: center; background-image:url(/HRExpressJava/images/yuangongxinxi_navbg0.jpg)}
+.i_ht_banner1{height: 24px; width: 100px; float: left; display: block; line-height: 24px;	text-align: center; background-image:url(/HRExpressJava/images/yuangongxinxi_navbg1.jpg)}
+
+.Pager .pageNum {
+	width: 20px;
+	border: none;
+	background: #fff;
+	color: #50c0f4;
+	text-align: center;
+	font-size: 14px;
+}
+
+.PageBar .page {
+	background: #fff;
+	border: 1px solid #50c0f4;
+	color: #50c0f4;
+	line-height: 24px;
+}
+
+.Pager .pageCur {
+	background: #50c0f4;
+	color: #fff;
+	line-height: 24px;
+	border: 1px solid #50c0f4;
+}
+
+.Pager .pageCur:hover {
+	text-decoration: none;
+	background-color: #50c0f4;
+	border: 1px solid #50c0f4;
+}

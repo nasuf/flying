@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.flying.cms.mapper.UserMapper">
+
+	<select id="queryAllUser" resultType="com.flying.cms.pojo.UserInfo">
+		SELECT * FROM tb_userinfo
+	</select>
+	
+	<resultMap type="UserInfo" id="essayResultMap" autoMapping="true">
+		<id column="id" property="id"/>
+		<collection property="essayList" javaType="List" ofType="Essay" autoMapping="true">
+			<id column="essayId" property="essayId"/>
+		</collection>
+	</resultMap>
+	
+	<select id="queryUserContainsEssayListByUserId" resultMap="essayResultMap">
+		SELECT
+			e.*,u.*
+		FROM
+			tb_essay e,
+			tb_userinfo u
+		WHERE
+			e.userId = u.id AND e.userId = #{userId};
+	</select>
+	
+</mapper>

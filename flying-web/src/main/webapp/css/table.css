@@ -1,0 +1,77 @@
+@CHARSET "UTF-8";
+--mcy update
+.i_center_bt {
+	width: 780px;
+	height: 25px;
+	float: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D0DCE6;
+	line-height: 25px;
+}
+
+.i_center_table0 table {
+	width: 700px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+--mcy update1
+.i_center_table0 tr {
+	line-height: 28px;
+}
+
+.i_center_table0 td {
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+
+.i_center_table0 .bt {
+	text-align: center;
+	border-bottom-width: 0px;
+	line-height: 28px;
+	font-weight: bold;
+	background-color: rgb(83, 193, 244);
+	color: White;
+}
+
+.i_center_table0 th {
+	border-width: 0;
+	line-height: 30px;
+}
+
+.i_center_table0 tr:hover td {
+	background: #d5f0fc !important;
+}
+
+.text {
+	line-height: 30px;
+	background-color: #E9ECF5;
+}
+
+.fB {
+	font-weight: bold;
+}
+
+.ccheng:visited {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+.chong, a.chong:link, a.chong:visited {
+	color: #FF0000;
+	text-decoration: none;
+}
+
+.i_fuli_input {
+	height: 20px;
+	line-height: 20px;
+	padding: 0 0 0 5px;
+	font-family: Tahoma, Simsun, Arials;
+	font-size: 12px;
+	color: #1B63A8;
+}

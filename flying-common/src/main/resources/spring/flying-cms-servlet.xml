@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- 注解驱动 -->
+	<mvc:annotation-driven />
+
+	<!-- 定义Controller的扫描包 -->
+	<context:component-scan base-package="com.flying.cms.controller" />
+
+	<!-- 定义视图解析器 -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/views/" />
+		<property name="suffix" value=".jsp" />
+		<!-- 查找顺序 -->
+		<property name="order" value="1" />
+	</bean>
+	<!-- 配置内部资源视图解析器 -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/views/"></property>
+		<property name="suffix" value=".jsp"></property>
+	</bean>
+
+	<!-- <mvc:interceptors>
+		校验用户是否登录，如果未登录跳转到登录页面
+		<mvc:interceptor>
+			<mvc:mapping path="/order/**" />
+			<bean class="com.flying.web.interceptor.UserLoginHandlerInterceptor" />
+		</mvc:interceptor>
+		如果用户登录，把用户信息保存到ThreadLocal中
+		<mvc:interceptor>
+			<mvc:mapping path="/cart/**"/>
+			<bean class="com.flying.web.interceptor.UserHandlerInterceptor"></bean>
+		</mvc:interceptor>
+	</mvc:interceptors>
+ -->
+</beans>

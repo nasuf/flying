@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+/* 主页 */
+*{font-size: 12px;
+	font-family: Microsoft YaHei, \5b8b\4f53, Tahoma, Sans-serif;
+	color: #364260;}
+.WrapContent{ width:100%;height:500px;background:#ffffff;}
+.MainContent{ width:1086px; margin:0px auto; min-height:400px; padding:20px 0px 0px 0px; position:relative;}
+
+/* 图片样式 */
+.home-block{ background:#333; color:#fff; float:left; width:73px; display:inline-block; margin-right:3px; height:120px; position:relative; padding:12px;}
+.home-block .icon{ background:url(/HRExpressJava/images/icon_big_01.png) center top no-repeat; width:66px; height:73px; display:inline-block; }
+.home-block .block-title{ display:block; font-size:18px; margin-top:-60px;margin-left:60px;color:#fff;}
+.home-block .block-text{ display:block; font-size:12px; margin-top:24px;color:#fff;}
+.home-block .icon.icon1{ background-image:url(/HRExpressJava/images/icon_big_01.png);margin-left:-10px;}
+.home-block .icon.icon2{ background-image:url(/HRExpressJava/images/icon_big_02.png);margin-left:-10px;}
+.home-block .icon.icon3{ background-image:url(/HRExpressJava/images/icon_big_03.png);margin-left:-10px;}
+.home-block-c1{ background:#FF9966;}
+.home-block-c2{ background:#37aef2;}
+.home-block-c3{ background:#FF3300;}
+
+/*主页面*/
+.form-background{background:#e8edf0;}
+
+/* 布局 */
+.home-imgbanner{ background:url(/HRExpressJava/images/home-imgbanner.jpg) center no-repeat; height:202px; margin-bottom:20px;}
+.home-left-part{ float:left; display:inline-block; width:549px; padding-left:13px;}
+.home-right-part{ float:right; display:inline-block; width:500px; padding-right:12px;}
+.home-panel{ background:#fff; width: 315px;height:85px; margin-left: 455px;margin-top: -100px;}
+.home-panel .panel-title{ font-size:16px; color:#333;}
+.home-panel .panel-title .more{ background:url(/HRExpressJava/images/icon_more.png) center no-repeat; width:32px; height:32px;margin-top:5px; vertical-align:middle; display:inline-block; cursor:pointer;}
+
+/* 公告栏 */
+.news-list li{ margin-bottom:2px;margin-left:-40px;}
+.news-list li>A{ font-size:13px; color:#333; text-decoration:none; display:block;}
+.news-list li>A:hover{ color:#ed6d00;}
+.news-list li>.time{ color:#e6e6fa; font-size:10px; }
+
+/* 其他 */
+.WrapTotal{ width:100%;}
+div,p,span,b,strong{padding:0px; margin:0px;}
+img{ vertical-align:middle; border:none;}
+.Sep{ height:15px; display:block; margin:0px; padding:0px;}
+.Clear{clear:both !important; padding:0px !important; margin:0px !important; display:block !important; height:0px !important;}
+
+.leftbg3{ width:308px; height:141px; background:url(/HRExpressJava/images/New_HR_Login-v1_16.jpg); float:left; margin-left:130px;}
+.rightbg4{width:308px; height:141px; background:url(/HRExpressJava/images/New_HR_Login-v1_17.jpg); float:left}
+.leftbg5{ width:308px; height:141px; background:url(/HRExpressJava/images/New_HR_Login-v1_14.jpg); float:left; margin-left:130px;}
+.rightbg6{width:308px; height:141px; background:url(/HRExpressJava/images/New_HR_Login-v1_15.jpg); float:left}
